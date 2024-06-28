@@ -4,6 +4,7 @@ export default class HolbertonCourse {
     this.length = length;
     this.students = students;
   }
+
   set name(name) {
     if (typeof name !== 'string') {
       throw new TypeError('Name must be a string');
