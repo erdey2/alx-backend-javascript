@@ -26,7 +26,7 @@ export default class HolbertonClass {
     return this._location;
   }
 
-  valueof() {
+  valueOf() {
     return this._size;
   }
 
