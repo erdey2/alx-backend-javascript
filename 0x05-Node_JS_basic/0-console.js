@@ -1,3 +1,4 @@
+/** display message to stdout */
 function displayMessage(str) {
 	console.log(str);
 }
