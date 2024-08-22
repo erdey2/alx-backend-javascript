@@ -7,8 +7,8 @@ app.get('/', (req, res) => {
   app.statusCode = 200;
   res.send('Hello Holberton School!');
 });
-  
-  app.listen(PORT, () => {
+
+app.listen(PORT, () => {
   console.log(`Server listening on PORT ${PORT}`);
 });
 
