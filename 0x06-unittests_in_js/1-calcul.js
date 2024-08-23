@@ -3,11 +3,11 @@ const calculateNumber = (type, a, b) => {
   {
     return Math.round(a) + Math.round(b);
   }
-  else if (type === 'SUBTRACT')
+  if (type === 'SUBTRACT')
   {
     return Math.round(a) - Math.round(b);
   }
-  else if (type === 'DIVIDE')
+  if (type === 'DIVIDE')
   {
     if (Math.round(b) === 0)
     {
